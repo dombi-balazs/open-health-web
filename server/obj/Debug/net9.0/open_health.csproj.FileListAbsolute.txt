@@ -256,3 +256,4 @@ C:\Users\dombi\Documents\computer-science\open-health-web\server\obj\Debug\net9.
 C:\Users\dombi\Documents\computer-science\open-health-web\server\obj\Debug\net9.0\open_health.pdb
 C:\Users\dombi\Documents\computer-science\open-health-web\server\obj\Debug\net9.0\open_health.genruntimeconfig.cache
 C:\Users\dombi\Documents\computer-science\open-health-web\server\obj\Debug\net9.0\ref\open_health.dll
+C:\Users\dombi\Documents\computer-science\open-health-web\server\obj\Debug\net9.0\open_health.sourcelink.json

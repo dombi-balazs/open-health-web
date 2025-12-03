@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("open_health")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d54526f9b996a672272dc6081e9b253b51dec36")]
 [assembly: System.Reflection.AssemblyProductAttribute("open_health")]
 [assembly: System.Reflection.AssemblyTitleAttribute("open_health")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

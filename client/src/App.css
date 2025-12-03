@@ -545,3 +545,112 @@ html, body {
   50% { box-shadow: 0 0 25px rgba(255, 42, 109, 0.3); }
   100% { box-shadow: 0 0 15px rgba(255, 42, 109, 0.1); }
 }
+
+.donation-container {
+  width: 90%;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 2.5rem;
+  text-align: center;
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--blur-amount));
+  border-radius: var(--radius-panel);
+}
+
+.donation-container:hover {
+  box-shadow: 0 0 30px rgba(0, 243, 255, 0.1);
+  transform: translateY(-5px);
+}
+
+.donation-title {
+  margin-top: 0;
+  color: var(--neon-cyan);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.donation-text {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.donation-image-wrapper {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.algo-logo {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border: 2px solid var(--text-main);
+  box-shadow: 0 0 15px var(--text-main);
+  background-color: white;
+  padding: 5px;
+}
+
+.wallet-box {
+  max-width: 550px; 
+  margin: 0 auto 1.5rem auto;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-elem);
+  padding: 10px 10px 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.wallet-address {
+  font-family: 'Consolas', 'Monaco', monospace;
+  color: var(--neon-cyan);
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0.9;
+  text-align: left;
+}
+
+/* MÁSOLÁS GOMB */
+.copy-btn {
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--text-main);
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.copy-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+
+.copy-btn.copied {
+  background: var(--neon-green);
+  border-color: var(--neon-green);
+  color: #000;
+  box-shadow: 0 0 10px var(--neon-green);
+}
+
+.donation-subtext {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  opacity: 0.6;
+  margin: 0;
+}
