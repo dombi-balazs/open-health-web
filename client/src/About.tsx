@@ -56,12 +56,6 @@ function About() {
           <div style={{fontSize: '0.9rem', opacity: 0.7, marginTop: '5px'}}>High performance</div>
         </div>
 
-        <div className="tech-card">
-          <span className="tech-label">Support the project</span>
-          <span className="tech-value"><img src="/assets/algorand.jpg" alt="algorand wallet qr code"/></span>
-          <div style={{fontSize: '0.9rem', opacity: 0.7, marginTop: '5px'}}>You can support the project by sending Algo</div>
-        </div>
-
       </div>
       <h3 className="about-section-title">The roadmap</h3>
       <div className="roadmap-box">
